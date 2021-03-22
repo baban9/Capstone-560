@@ -8,3 +8,4 @@
 - FileMove: rather than manually trying to move files, we were trying to use python to do so.
 - dataAnalysis: a naive approach to look at the data and details of the images.
 - UPC classification v1.1 : For binary classification with and without UPC poles.
+- keras-imagenet.ipynb : it gives a naice approach to detect objects in the images. Further analysis to follow. 
