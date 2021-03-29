@@ -1,8 +1,6 @@
 # required Libraries 
 import google_streetview.api
 import google_streetview.helpers
-import os
-import csv 
 
 lat_north = 42.0451 
 """ Evanston """
@@ -64,4 +62,4 @@ def get_images(lat_north, lat_south, long_east, long_west, increment, api_key, d
     print("downloading done")
 
 
-get_images(lat_north, lat_south, long_east, long_west, increment, api_key="AIzaSyCrFdA7YGUHrDMOSeHs3FCXPpRYEs_YnBc", data_dir=download_data_dir)
+get_images(lat_north, lat_south, long_east, long_west, increment, api_key="", data_dir=download_data_dir)
