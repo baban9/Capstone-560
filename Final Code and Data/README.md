@@ -16,8 +16,9 @@ This is a coalation of mini projects which hcan be tailored into data gathering 
     pip install -r requirements.txt
     ```
 - Data Gathering and visualization 
-    - [Data insights](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/Data%20Visualization.ipynb) - This notebooks helped us take crucial decisions from the captured data. 
-- Image processing
+    - [GPS cordinates.ipynb](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/GPScordinates%20CSV.ipynb) - This notebook takes in 2 GPS cordinates of the region of interest boundary and increment of the images to be captures and produces a CSV file with all the cordinates and incremental cordinates for the specified grid.
+    - [Data insights.ipynb](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/Data%20Visualization.ipynb) - This notebooks helped us take crucial decisions from the captured data of the images.
+- [Image processing.ipynb](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/Image_Pre_processing%20(1).ipynb) - 
 - Classification 
 We used 2 different neural networks to detect if the image has poles or not. We manually picked 1000 images and labelled data into required train/val/test dataset. the dataset is available here : https://github.com/baban9/Capstone-560/releases/tag/dataset 
     - [Artificial CNN](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/A_CNN.ipynb) - This neural network contains 2 million trainable parameters trained for 25 epochs with RMSprop optimizer and learning rate of 1e-4. this model was able to give us 81% Validation accuracy. However, we relied mainly on precision (0.57) and recall (0.35) to assess the model efficacy. 
