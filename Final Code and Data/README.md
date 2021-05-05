@@ -11,12 +11,17 @@ This is a coalation of mini projects which hcan be tailored into data gathering 
     - [requirements.txt](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/requirements.txt) provides the necessary libraries and versions we worked during the course of the project. (Note: there are many libraries inbuilt in googleColab. If you miss any library use 
     ```
     !pip install library_name
+    
+    To install the libraries from requirments 
+    pip install -r requirements.txt
     ```
-    inside the colab notebook cell
-    - 
-- Data Gathering 
+- Data Gathering and visualization 
+    - [Data insights](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/Data%20Visualization.ipynb) - This notebooks helped us take crucial decisions from the captured data. 
 - Image processing
 - Classification 
+We used 2 different neural networks to detect if the image has poles or not. We manually picked 1000 images and labelled data into required train/val/test dataset. the dataset is available here : https://github.com/baban9/Capstone-560/releases/tag/dataset 
+    - [Artificial CNN](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/A_CNN.ipynb) - This neural network contains 2 million trainable parameters trained for 25 epochs with RMSprop optimizer and learning rate of 1e-4. this model was able to give us 81% Validation accuracy. However, we relied mainly on precision (0.57) and recall (0.35) to assess the model efficacy. 
+    - [Resnet Model](
 - Object Detection
 - Weight releases.
 -  Natural Language Processing and Deep Learning
