@@ -9,7 +9,7 @@ This is a coalation of mini projects which hcan be tailored into data gathering 
 - Environment Setup 
     - Since this project is a group collaboration we relied on Google Colab for most of the basic programming which has capabilities of python 3.7 version.
     - [requirements.txt](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/requirements.txt) provides the necessary libraries and versions we worked during the course of the project. (Note: there are many libraries inbuilt in googleColab. If you miss any library use 
-    !pip install library_name 
+    > !pip install library_name 
     inside the colab notebook cell
     - 
 - Data Gathering 
