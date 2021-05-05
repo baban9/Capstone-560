@@ -2,9 +2,9 @@
 
 ## Main Contributors are 
     - Babandeep Singh (babandeep193@gmail.com)
-    - Danielle Strejc ()
-    - Rongchuan Guo ()
-    - Utkarsh Ujwal ()
+    - Danielle Strejc (dtstrejc25@gmail.com)
+    - Rongchuan Guo (grc908951@gmail.com)
+    - Utkarsh Ujwal (utkarsh.ujwal404@gmail.com)
 
 ## Project Summary
 The maintenance of utility poles is a cost extensive operation, and a proper plan must be in place to make it economically viable. Things that drive these investment calls are first of all the widespread nature of these utility poles. Utilities are scattered around the geographical jurisdiction of Northern Illinois, and detecting deterioration manually is inefficient economically and operationally. As the budget is limited, smart and informed decisions need to be made to justify the investment. 
