@@ -7,6 +7,10 @@ Chalking down the location of all the poles manually is a tedious task, we try t
 This repository encompasses Data gathering APIs to classification models for detecting images with Utility poles and creating the bounding boxes and masks around the object of interest. 
 This is a coalation of mini projects which hcan be tailored into data gathering to getting the object of interest location features.
 - Environment Setup 
+    - Since this project is a group collaboration we relied on Google Colab for most of the basic programming which has capabilities of python 3.7 version.
+    - requirements.txt[https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/requirements.txt] provides the necessary libraries and versions we worked during the course of the project. (Note: there are many libraries inbuilt in googleColab. If you miss any library use 
+    !pip install library_name 
+    inside the colab notebook cell
     - 
 - Data Gathering 
 - Image processing
