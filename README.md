@@ -50,3 +50,13 @@ We used 2 different neural networks to detect if the image has poles or not. We 
    Disclaimer : this is adaptation of the https://github.com/zhangyanyu0722/5G-Utility-Pole-Planner and we complied with all the licensing terms.
    ```
 6. [Pole data.csv](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/pole_data.csv) - This is a detailed csv file which contains the Utility pole location in pixels, the height and width of the poles, their latitude and longitude cordinates. Along which such details there is thier downloadable url (Note: replace "Your_API_key" with your API key to download the images assosciated and mimic the details.
+
+
+## References
+1. https://blog.paperspace.com/mask-r-cnn-in-tensorflow-2-0/ {This is go to guide for structuring and formating the folders to train and for object detection and utility pole detection in our case}
+2. Zhang, Weixing, et al. "Using deep learning to identify utility poles with crossarms and estimate their locations from google street view images." Sensors 18.8 (2018): 2484.
+3. https://github.com/leonshen95/DetectUtilityPoles
+4. https://github.com/tzutalin/labelImg ( Greatest and most popular tool for manually creating bounding boxes around the object of interest)
+5. Girshick, Ross, et al. "Rich feature hierarchies for accurate object detection and semantic segmentation." Proceedings of the IEEE conference on computer vision and pattern recognition. 2014.
+6. https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html {How template matching works }
+7. https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html { different practices for image pre/post processing}
