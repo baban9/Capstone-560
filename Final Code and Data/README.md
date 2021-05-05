@@ -15,7 +15,7 @@ This is a coalation of mini projects which hcan be tailored into data gathering 
     To install the libraries from requirments 
     pip install -r requirements.txt
     ```
-- Data Gathering and visualization 
+1. Data Gathering and visualization 
     - [Image downloading API.py](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/get_images_api.py) - This API takes in latitude and longitude GPS cordinates and API Key with radius of the grid and downloads all the Google Street View Images in the specified folders. 
     - [GPS cordinates.ipynb](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/GPScordinates%20CSV.ipynb) - This notebook takes in 2 GPS cordinates of the region of interest boundary and increment of the images to be captures and produces a CSV file with all the cordinates and incremental cordinates for the specified grid.
     - [Data insights.ipynb](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/Data%20Visualization.ipynb) - This notebooks helped us take crucial decisions from the captured data of the images.
