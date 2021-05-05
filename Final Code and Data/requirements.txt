@@ -1,0 +1,11 @@
+gast==0.3.3
+scipy 
+Pillow 
+cython 
+matplotlib 
+scikit-image>=0.14.2 
+tensorflow==1.15.3 
+keras==2.2.4 
+opencv-python 
+h5py 
+imgaug
