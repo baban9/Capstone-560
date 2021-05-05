@@ -7,15 +7,18 @@
     - Utkarsh Ujwal ()
 
 ## Project Summary
-The maintenance of utility poles is a cost extensive operation, and a proper plan must be in place to make it economically viable. Things that drive these investment calls are first of all the widespread nature of these utility poles. Utilities are scattered around the geographical jurisdiction of Northern Illinois, and detecting deterioration manually is very inefficient both economically and operationally. As the budget is limited, smart and informed decisions need to be made to justify the investment. 
+The maintenance of utility poles is a cost extensive operation, and a proper plan must be in place to make it economically viable. Things that drive these investment calls are first of all the widespread nature of these utility poles. Utilities are scattered around the geographical jurisdiction of Northern Illinois, and detecting deterioration manually is inefficient economically and operationally. As the budget is limited, smart and informed decisions need to be made to justify the investment. 
 
-Chalking down the location of all the poles manually is a tedious task, we try to achieve through Deep Learning . We plan to use object detection to detect utility poles with street view optical images. To automatically map roadside utility poles with crossarms (UPC), we can either use Google Street View (GSV) or high resolution aerial images detecting the shadow of the pole. Then, we will try to localize the UPCs, detect the damage to the structure, figure out how urgent it is to be repaired, and accordingly invest time and money into it.
+The root-cause arises from a tedious task of chalking down the location of all the poles manually. With this project we aim to eradicate such costs with the help of Data Science and deep learning. We plan to use object detection to detect utility poles with street view optical images. To automatically map roadside utility poles with crossarms (UPC), we can either use Google Street View (GSV) or high resolution Aerial Images detecting the shadow of the pole. 
 
-This repository encompasses Data gathering APIs to classification models for detecting images with Utility poles and creating the bounding boxes and masks around the object of interest. 
+Furhter this could lead to localizing the UPCs, detecting the damage to the structure, figuring out how urgent it is to be repaired, and accordingly invest time and money into it.
 
-This is a coalation of mini projects which can be tailored into data gathering to getting the object of interest location features.
+## Project Pipeline
+
+This repository encompasses Data gathering APIs to classification models for detecting images with Utility poles and creating the bounding boxes and masks around the object of interest. This is a coalation of mini projects which can be tailored into data gathering to getting the object of interest location features.
 
 ## GitHub walk through
+
 1. Environment Setup 
     - Since this project is a group collaboration we relied on Google Colab for most of the basic programming which has capabilities of python 3.7 version.
     - [requirements.txt](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/requirements.txt) provides the necessary libraries and versions we worked during the course of the project. (Note: there are many libraries inbuilt in googleColab. If you miss any library use 
