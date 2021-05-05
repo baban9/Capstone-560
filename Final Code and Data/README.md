@@ -1,6 +1,10 @@
 # Capstone IDS 560 - Project Under the guidance of Prof. Kyle Cheek
 
-
+## Main Contributors are 
+    - Babandeep Singh (babandeep193@gmail.com)
+    - Danielle Strejc ()
+    - Rongchuan Guo ()
+    - Utkarsh Ujwal ()
 
 The maintenance of utility poles is a cost extensive operation, and a proper plan must be in place to make it economically viable. Things that drive these investment calls are first of all the widespread nature of these utility poles. Utilities are scattered around the geographical jurisdiction of Northern Illinois, and detecting deterioration manually is very inefficient both economically and operationally. As the budget is limited, smart and informed decisions need to be made to justify the investment. 
 
