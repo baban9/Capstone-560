@@ -17,6 +17,8 @@ Furhter this could lead to localizing the UPCs, detecting the damage to the stru
 
 This repository encompasses Data gathering APIs to classification models for detecting images with Utility poles and creating the bounding boxes and masks around the object of interest. This is a coalation of mini projects which can be tailored into data gathering to getting the object of interest location features.
 
+## Model weights and Datasets are available with this repo in the releases section. 
+
 ## GitHub walk through
 
 1. Environment Setup 
