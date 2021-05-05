@@ -60,3 +60,4 @@ We used 2 different neural networks to detect if the image has poles or not. We 
 5. Girshick, Ross, et al. "Rich feature hierarchies for accurate object detection and semantic segmentation." Proceedings of the IEEE conference on computer vision and pattern recognition. 2014.
 6. https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html {How template matching works }
 7. https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html { different practices for image pre/post processing}
+8. https://github.com/zhangyanyu0722/5G-Utility-Pole-Planner {The true motivation and breakthrough}
