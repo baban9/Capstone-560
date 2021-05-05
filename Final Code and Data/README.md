@@ -2,19 +2,25 @@
 
 ## Main Contributors are 
     - Babandeep Singh (babandeep193@gmail.com)
-    - Danielle Strejc ()
-    - Rongchuan Guo ()
-    - Utkarsh Ujwal ()
+    - Danielle Strejc (dtstrejc25@gmail.com)
+    - Rongchuan Guo (grc908951@gmail.com)
+    - Utkarsh Ujwal (utkarsh.ujwal404@gmail.com)
 
 ## Project Summary
-The maintenance of utility poles is a cost extensive operation, and a proper plan must be in place to make it economically viable. Things that drive these investment calls are first of all the widespread nature of these utility poles. Utilities are scattered around the geographical jurisdiction of Northern Illinois, and detecting deterioration manually is very inefficient both economically and operationally. As the budget is limited, smart and informed decisions need to be made to justify the investment. 
+The maintenance of utility poles is a cost extensive operation, and a proper plan must be in place to make it economically viable. Things that drive these investment calls are first of all the widespread nature of these utility poles. Utilities are scattered around the geographical jurisdiction of Northern Illinois, and detecting deterioration manually is inefficient economically and operationally. As the budget is limited, smart and informed decisions need to be made to justify the investment. 
 
-Chalking down the location of all the poles manually is a tedious task, we try to achieve through Deep Learning . We plan to use object detection to detect utility poles with street view optical images. To automatically map roadside utility poles with crossarms (UPC), we can either use Google Street View (GSV) or high resolution aerial images detecting the shadow of the pole. Then, we will try to localize the UPCs, detect the damage to the structure, figure out how urgent it is to be repaired, and accordingly invest time and money into it.
+The root-cause arises from a tedious task of chalking down the location of all the poles manually. With this project we aim to eradicate such costs with the help of Data Science and deep learning. We plan to use object detection to detect utility poles with street view optical images. To automatically map roadside utility poles with crossarms (UPC), we can either use Google Street View (GSV) or high resolution Aerial Images detecting the shadow of the pole. 
 
-This repository encompasses Data gathering APIs to classification models for detecting images with Utility poles and creating the bounding boxes and masks around the object of interest. 
-This is a coalation of mini projects which hcan be tailored into data gathering to getting the object of interest location features.
+Furhter this could lead to localizing the UPCs, detecting the damage to the structure, figuring out how urgent it is to be repaired, and accordingly invest time and money into it.
+
+## Project Pipeline
+
+This repository encompasses Data gathering APIs to classification models for detecting images with Utility poles and creating the bounding boxes and masks around the object of interest. This is a coalation of mini projects which can be tailored into data gathering to getting the object of interest location features.
+
+## Model weights and Datasets are available with this repo in the releases section. 
 
 ## GitHub walk through
+
 1. Environment Setup 
     - Since this project is a group collaboration we relied on Google Colab for most of the basic programming which has capabilities of python 3.7 version.
     - [requirements.txt](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/requirements.txt) provides the necessary libraries and versions we worked during the course of the project. (Note: there are many libraries inbuilt in googleColab. If you miss any library use 
@@ -44,3 +50,13 @@ We used 2 different neural networks to detect if the image has poles or not. We 
    Disclaimer : this is adaptation of the https://github.com/zhangyanyu0722/5G-Utility-Pole-Planner and we complied with all the licensing terms.
    ```
 6. [Pole data.csv](https://github.com/baban9/Capstone-560/blob/main/Final%20Code%20and%20Data/pole_data.csv) - This is a detailed csv file which contains the Utility pole location in pixels, the height and width of the poles, their latitude and longitude cordinates. Along which such details there is thier downloadable url (Note: replace "Your_API_key" with your API key to download the images assosciated and mimic the details.
+
+
+## References
+1. https://blog.paperspace.com/mask-r-cnn-in-tensorflow-2-0/ {This is go to guide for structuring and formating the folders to train and for object detection and utility pole detection in our case}
+2. Zhang, Weixing, et al. "Using deep learning to identify utility poles with crossarms and estimate their locations from google street view images." Sensors 18.8 (2018): 2484.
+3. https://github.com/leonshen95/DetectUtilityPoles
+4. https://github.com/tzutalin/labelImg ( Greatest and most popular tool for manually creating bounding boxes around the object of interest)
+5. Girshick, Ross, et al. "Rich feature hierarchies for accurate object detection and semantic segmentation." Proceedings of the IEEE conference on computer vision and pattern recognition. 2014.
+6. https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html {How template matching works }
+7. https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html { different practices for image pre/post processing}
