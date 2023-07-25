@@ -1,5 +1,5 @@
 gast==0.3.3
-scipy==1.4.1
+scipy==1.10.0
 Pillow>=7.1.2
 cython==0.29.22
 matplotlib==3.2.2
