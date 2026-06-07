@@ -1,13 +1,23 @@
+# Legacy Capstone pipeline dependencies (Mask R-CNN era).
+# Pillow, OpenCV, SciPy, and h5py floors address known CVEs.
+# TensorFlow/Keras versions may need pinning for notebook reproducibility.
+
 gast==0.3.3
-scipy==1.10.0
-Pillow>=7.1.2
-cython==0.29.22
-matplotlib==3.2.2
-scikit-image>=0.14.2 
-tensorflow>=1.15.3 
-keras==2.13.1 
-opencv-python==4.8.1.78
-h5py==2.10.0
-imgaug==0.2.9
+scipy>=1.11.4
+Pillow>=10.4.0
+cython>=3.0.11
+matplotlib>=3.9.2
+scikit-image>=0.22.0
+tensorflow>=2.16.2
+keras>=2.13.1
+opencv-python>=4.10.0.84
+h5py>=3.11.0
+imgaug>=0.4.0
 mrcnn==0.2
-google_streetview >=1.2.9
+google_streetview>=1.2.9
+
+# Transitive security pins
+urllib3>=2.2.2
+certifi>=2024.8.30
+requests>=2.32.3
+idna>=3.7
